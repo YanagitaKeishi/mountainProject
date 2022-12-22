@@ -1,0 +1,225 @@
+@charset "utf-8";
+
+/*ナビバー*/
+.nav-bg{
+	background-color:#000;
+}
+.nav-title{
+	color:white;
+	text-decoration:none;
+	margin-left:20px;
+}
+.navbar-collapse{
+	justify-content:space-between;
+}
+.navbar-nav{
+	width:300px;
+	margin-left:15px;
+}
+.nav-top{
+	margin-top:100px;
+}
+.nav-user a{
+	color:white;
+	text-decoration:none;
+}
+.no-user{
+	margin:10px;
+}
+.user-box ul{
+	list-style-type: none;
+}
+.nav a.no-color-change{
+	color:white;
+}
+.nav-btn{
+	width:90px;
+}
+.panel-inner{
+	display:none;
+}
+/*記録/*記録の編集ページ*/
+.report-main{
+	width:100%;
+	min-height:100vh;
+	background-color:#eee;
+}
+.report-main h1{
+	padding-top:100px;
+}
+.report-form label{
+	margin-right:15px;
+}
+.report{
+	height:800px;
+	width:500px;
+	margin-top:30px;
+}
+.report-box{
+	height:700px;
+	background-color:#ddd;
+	border-radius:10px;
+}
+.report-form{
+	width:300px;
+	margin:0 auto;
+	color:#000;
+	font-weight:bold;
+}
+.report-btn{
+	width:150px;
+	margin:0 10px 0 auto;
+	margin-top:10px;
+}
+/*ユーザー情報*/
+.myinfo{
+	width:400px;
+	margin-top:300px;
+}
+.myinfo-error{
+	color:red;
+}
+.myinfo-btn{
+	display:flex;
+	justify-content:center;
+	width:400px;
+}
+/*ログイン*/
+.login-main{
+	width:100%;
+	min-height:100vh;
+	background-color:#eee;
+}
+.login{
+	background-color:#ddd;
+	height:500px;
+	width:500px;
+	margin:40px auto;
+	border-radius:25px;
+}
+.login-title{
+	padding-top:150px;
+}
+.login-title a{
+	text-decoration:none;
+	color:#000;
+}
+.login-form{
+	width:350px;
+	margin:15px auto;
+}
+.login h2{
+	padding-top:130px;
+}
+.alert-box{
+	width:480px;
+	margin:0 auto;
+}
+.alert-box a{
+	font-weight:bold;
+}
+.login ::placeholder{
+	text-align:center;
+}
+.login-submit{
+	width:160px;
+	margin:0 auto;
+}
+/*新規登録*/
+.signUp-main{
+	width:100%;
+	min-height:100vh;
+	background-color:#eee;
+}
+.signUp{
+	width:500px;
+	height:400px;
+	margin-top:50px;
+	background-color:#ddd;
+	padding:30px 12px;
+	border-radius:25px;
+	
+}
+.signUp-title{
+	padding-top:250px;
+}
+.signUp-error p{
+	display:inline;
+	margin-left:10px;
+}
+.signUp-btn{
+	width:100px;
+	margin:0 auto;
+}
+.signUp-form{
+	width:300px;
+	margin:20px auto;
+}
+.signUp-form:nth-child(1){
+	margin-top:70px;
+}
+.signUp-form ::placeholder{
+	text-align:center;
+}
+.submit{
+	width:100%;
+}
+.signUpDone{
+	margin:50px 300px 50px 300px;
+}
+/*トップページ*/
+.top{
+	width:auto;
+	min-height:100vh;
+	background-image:url("../images/mount03.jpg");
+	background-size:cover;
+	background-position:center;
+	margin-top:60px;
+}
+
+.top h1{
+	padding:100px;
+	color:#fff;
+}
+
+/*百名山リスト*/
+.list-form{
+	display:flex;
+}
+.listName a{
+	text-decoration:none;
+	color:#000;
+}
+/*マイページ記録*/
+.my-btn a:nth-child(2){
+	margin-left:20px;
+}
+/*登録情報*/
+.myinfo h5{
+	color:red;
+}
+/*みんなの記録*/
+.table-top{
+	margin-top:20px;
+}
+/*.flex-container{
+	list-style-type: none;
+	display:flex;
+	justify-content:space-around;
+	
+}
+.flex-container a{
+	text-decoration:none;
+}
+
+
+
+
+
+
+*/
+
+
+
+
+
