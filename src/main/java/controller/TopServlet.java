@@ -21,23 +21,8 @@ public class TopServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-//		User user = new User();
-//		try {
-//			HttpSession session = request.getSession();
-//			String loginId = (String) session.getAttribute("loginId");
-//			if (loginId != null) {
-//				UserDao userDao = DaoFactory.createUserDao();
-//				user = userDao.findByLoginId(loginId);
-//				if (user != null) {
-//					request.setAttribute("name", user.getName());
-//				}
-//			} else {
-//				request.setAttribute("name", null);
-//			}
-			request.getRequestDispatcher("/WEB-INF/view/top.jsp").forward(request, response);
-//		} catch (Exception e) {
-//			throw new ServletException(e);
-//		}
+			request.getRequestDispatcher("/WEB-INF/view/top.jsp")
+			 		.forward(request, response);
 		
 	}
 
