@@ -21,7 +21,7 @@ public class TopServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-
+//githubの練習
 			request.getRequestDispatcher("/WEB-INF/view/top.jsp")
 					.forward(request, response);
 		
